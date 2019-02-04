@@ -32,8 +32,6 @@ tar -czf LogMX_update_v7.3.0.tgz LogMX_v7.1.0_eval/<br />
 Ideally the malicious update should be delivered via a MITM-position such as ARP-poisoning or by a proxy. To simulate the behavior it is possible to replace the downloaded file on the machine before clicking on the Update LogMX-button. The downloaded tar-file is located at %APPDATA%\..\Local\Temp\LogMX_Update and this file can be replaced to easily simulate the tampering with the file download.
 </p>
 <p>
-To fix this issue updates should be delivered over HTTPS only and the authenticity and integrity of this update must be verified.  In attachment, I've added my malicious LogMXUpdater.java file and a video of the executed PoC. <br />  
-<br /> 
 <a href="LogMXUpdater.java">LogMXUpdater.java</a><br />
 <a href="PoC_LogMX_Backdoored_Updater.mp4">PoC_LogMX_Backdoored_Updater.mp4</a>
 </p>
